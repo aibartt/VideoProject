@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background"></div> <!-- Adding a div for the background picture -->
+    <div class="mainContainer">
+      <h1>Black Box: IM Capstone Show</h1>
+      <h2>A flexible space with full lighting and PA capabilities, the Black Box can accommodate a wide range of configurations for music, dance, theater, and multi-disciplinary performance, with capacity varying depending on layout. Today we will be exploring IM Capstone Showcase by our amazing seniors in an interactive Video tour.</h2>
+        <div class="videoContainer">
+            <div id="vimeoPlayer" data-vimeo-id="822453988"></div>
+        </div>
+        <div class="buttons">
+            <button id="play-video" class ="button">Play Video</button>
+            <button id="play-video-1" class ="button" style="display: none">Let's Start!</button>
+
+            <!-- two buttons css for project 1 -->
+            <button id="project1" class ="buttonLeft" style="display: none">Project 1</button>
+            <button id="continue" class = "buttonRight" style="display: none">Continue</button>
+
+            <!-- two buttons css for project 2 -->
+            <button id="project2" class ="buttonLeft" style="display: none">Project 2</button>
+            <button id="continue2" class = "buttonRight" style="display: none">Continue</button>
+
+            <!-- two buttons css for project 3 -->
+            <button id="project3" class ="buttonLeft" style="display: none">Project 3</button>
+            <button id="continue3" class = "buttonRight" style="display: none">Continue</button>
+
+            <!-- two buttons css for project 4 -->
+            <button id="project4" class ="buttonLeft" style="display: none">Project 4</button>
+            <button id="continue4" class = "buttonRight" style="display: none">Continue</button>
+
+            <!-- two buttons css for project 5 -->
+            <button id="project5" class ="buttonLeft" style="display: none">Project 5</button>
+            <button id="continue5" class = "buttonRight" style="display: none">Continue</button>
+
+            <!-- two buttons css for exit or revisit -->
+            <button id="exit" class ="buttonLeft" style="display: none">Exit</button>
+            <button id="revisit" class = "buttonRight" style="display: none">Revisit</button>
+
+        </div>
+    </div>
+
+
+    <div class="carousel">
+      <p>Black Box Interior</p>
+      <!-- Previous button to navigate to the previous image -->
+      <div class="buttons">
+        <button id="previousButton" class="previousButton">Previous</button>
+        <!-- Image that will be displayed in the carousel -->
+        <img src="Images/1.jpeg" id="currentImage" class="bts">
+        <!-- Next button to navigate to the next image -->
+        <button id="nextButton" class="nextButton">Next</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="imSection">
+      <div class="imLink">
+        <a href="https://www.nyuadim.com/" style="text-decoration:none; color:#0072C6; font-size:20px; font-weight:bold; display:block; margin-bottom:20px;">Learn more about IM at NYUAD &#187;</a>
+
+      </div>
+      <div class="imDescription">
+        <h3>Why should you be interested in Interactive Media Major/Minor?</h3>
+        <p>If you're interested in technology, design, and communication, Interactive Media may be a great fit for you. This field is constantly evolving, with new technologies and techniques emerging all the time. As an Interactive Media Major, you'll have the opportunity to work on projects that push the boundaries of what's possible, and you'll be prepared for a variety of careers in the tech and creative industries.</p>
+      </div>
+  </div>
+    
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

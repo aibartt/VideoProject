@@ -1,0 +1,188 @@
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  background-image: url('blackbox.jpg');
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.videoContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#vimeoPlayer iframe {
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+}
+
+.button{
+  background-color: #dd7973;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.buttonLeft{
+  background-color: #dd7973;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.buttonRight{
+  background-color: #dd7973;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('blackbox.jpg'); /* Change to the path of your desired background picture */
+  background-size: cover;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  color: #dd7973; 
+}
+
+h2{
+  font-size: 1.5em;
+  color: #dd7973; 
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #dd7973;
+}
+
+/* Style for the container of the carousel */
+.carousel {
+  display: flex; /* Display as a flex container */
+  justify-content: center; /* Center the elements horizontally */
+  align-items: center; /* Center the elements vertically */
+   /* Set a fixed height for the container */
+}
+
+.bts{
+  width: 700px; /* Set a fixed width for the images */
+  height: 400px; /* Set a fixed height for the images */
+  object-fit: cover; /* Cover the entire container with the image */
+  margin-top: 80px;
+}
+
+.previousButton,
+.nextButton {
+  background-color: #dd7973;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.imSection {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  color: #dd7973;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imLink a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0077cc;
+  text-decoration: none;
+  border-bottom: 3px solid #0077cc;
+  padding-bottom: 5px;
+}
+
+.imDescription {
+  width: 70%;
+}
+
+.imDescription h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.imDescription p {
+  color: #dd7973;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
